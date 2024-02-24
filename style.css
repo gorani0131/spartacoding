@@ -1207,7 +1207,7 @@
 }
 
 
-@media screen and (min-width : 320px) and (max-width : 479px) {
+@media screen and (max-width : 479px) {
     .tablet, .desktop{
         display: none;
     }
@@ -1825,11 +1825,5 @@
         letter-spacing: 0;
         line-height: normal;
         white-space: nowrap;
-    }
-}
-
-@media screen and (max-width : 378px) {
-    .desktop, .tablet, .mobile {
-        display : none;
     }
 }
